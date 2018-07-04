@@ -37,9 +37,9 @@ public class Task1 extends Application   {
 		}
 	
 	}
-	public void moveScene(Stage first, OnePane pane) {
+	public void moveScene(Stage first, OnePane pane) { //Change Scene 
 		num1 =pane;
-buttonClick();
+		buttonClick();
 		first.getScene().setRoot(num1);
 	}
 	public void addScene(Stage first) throws IOException {
@@ -60,7 +60,7 @@ buttonClick();
 	}
 	
 				
-public void buttonClick() {
+public void buttonClick() { //handle button
 	
 	 num1.add.setOnAction(e->{
 			try {
@@ -124,7 +124,7 @@ public void mainStage(Stage first, AddressBook object)  throws IOException { // 
 		first.setScene(scene);
 		first.show();
 	}
-	public void start(Stage primaryStage) throws InvocationTargetException {
+	public void start(Stage primaryStage) throws InvocationTargetException { // start function
 	try {
 		load();
 		first=primaryStage;

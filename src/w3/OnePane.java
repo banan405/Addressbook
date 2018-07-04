@@ -13,20 +13,20 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class OnePane extends GridPane {
+public class OnePane extends GridPane { // Pane Class
 	AddressBook object;
-	public	Button add;
-	public Button next;
-	public Button previous;
+	public	Button add; //add button
+	public Button next; //next button..
+	public Button previous; 
 	public 	Button firstbb;
 	public 	Button last;
 	public Button update;
-	TextField nameField;
+	TextField nameField;  // text field for each 
 	TextField streetField;
 	TextField cityField;
 	TextField stateField;
 	TextField zipField ;
-	OnePane(AddressBook newOb) {
+	OnePane(AddressBook newOb) { // get AddressBook object
 		object =newOb;
 		setPadding(new Insets(10,10,10,10));
 		setVgap(10);
